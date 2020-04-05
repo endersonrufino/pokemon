@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import './styles.css';
 
@@ -15,53 +14,52 @@ export default function Pokedex() {
 
             <ul>
                 <li>
-                    <div className="pokemon-image">
-                        <img src={pikachu} alt="Pokeon" />
-                    </div>
-                    <div className="pokemon-name">
-                        <strong>Nome: Pikachu</strong>
-                    </div>
-                    <div className="pokemon-details">
-                        <Link className="button" to="/details">Detalhes</Link>
-                    </div>
+                    <img src={pikachu} alt="Pokeon" />
+                    <strong>Pikachu</strong>
+                    <button>Detalhes</button>
                 </li>
 
                 <li>
-                    <div className="pokemon-image">
-                        <img src={pikachu} alt="Pokeon" />
-                    </div>
-                    <div className="pokemon-name">
-                        <strong>Nome: Pikachu</strong>
-                    </div>
-                    <div className="pokemon-details">
-                        <Link className="button" to="/details">Detalhes</Link>
-                    </div>
+                    <img src={pikachu} alt="Pokeon" />
+                    <strong>Pikachu</strong>
+                    <button>Detalhes</button>
                 </li>
 
                 <li>
-                    <div className="pokemon-image">
-                        <img src={pikachu} alt="Pokeon" />
-                    </div>
-                    <div className="pokemon-name">
-                        <strong>Nome: Pikachu</strong>
-                    </div>
-                    <div className="pokemon-details">
-                        <Link className="button" to="/details">Detalhes</Link>
-                    </div>
+                    <img src={pikachu} alt="Pokeon" />
+                    <strong>Pikachu</strong>
+                    <button>Detalhes</button>
                 </li>
 
                 <li>
-                    <div className="pokemon-image">
-                        <img src={pikachu} alt="Pokeon" />
-                    </div>
-                    <div className="pokemon-name">
-                        <strong>Nome: Pikachu</strong>
-                    </div>
-                    <div className="pokemon-details">
-                        <Link className="button" to="/details">Detalhes</Link>
-                    </div>
+                    <img src={pikachu} alt="Pokeon" />
+                    <strong>Pikachu</strong>
+                    <button>Detalhes</button>
                 </li>
 
+                <li>
+                    <img src={pikachu} alt="Pokeon" />
+                    <strong>Pikachu</strong>
+                    <button>Detalhes</button>
+                </li>
+
+                <li>
+                    <img src={pikachu} alt="Pokeon" />
+                    <strong>Pikachu</strong>
+                    <button>Detalhes</button>
+                </li>
+
+                <li>
+                    <img src={pikachu} alt="Pokeon" />
+                    <strong>Pikachu</strong>
+                    <button>Detalhes</button>
+                </li>
+
+                <li>
+                    <img src={pikachu} alt="Pokeon" />
+                    <strong>Pikachu</strong>
+                    <button>Detalhes</button>
+                </li>
             </ul>
         </div>
     );

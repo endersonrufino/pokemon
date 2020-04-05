@@ -16,4 +16,14 @@ body {
 button {
     font: 400 18px Roboto, sans-serif;
     cursor: pointer;
+    background: #ffcb05;
+    border: 1px solid #2a75bb;
+    border-radius: 8px;
+    color:#2a75bb;
+    text-align: center;
+}
+
+strong {
+    color: #2a75bb;
+    border: none;
 }
